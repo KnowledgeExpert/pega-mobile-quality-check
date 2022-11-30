@@ -1,0 +1,1060 @@
+[info] [2022-11-30T11:03:09.180Z]
+
+Starting Test Maker 7.5.3
+
+[info] [2022-11-30T11:03:09.195Z]
+Compiling Test Maker Config File: D:/pega-mobile-quality-check/test-maker.local.ts
+[info] [2022-11-30T11:03:10.036Z]
+Loading Test Maker System Modules
+[info] [2022-11-30T11:03:10.037Z]
+- Loading Test Maker Plugins
+[info] [2022-11-30T11:03:10.295Z]
+- Loading Test Maker Reporters:
+[info] [2022-11-30T11:03:10.296Z]
+- Loading Test Maker Adapters:
+[info] [2022-11-30T11:03:10.975Z]
+  - appium
+[info] [2022-11-30T11:03:10.976Z]
+    - Loading Client: android:chrome
+[info] [2022-11-30T11:03:10.997Z]
+
+Debugging is enabled for enabled
+[info] [2022-11-30T11:03:10.998Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-11-30T11:03:11.036Z]
+
+- Deleting Old Reporters Files
+[info] [2022-11-30T11:03:11.044Z]
+- Compiling Spec Files
+
+[2022-11-30T11:03:11.363Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/example-spec.js 12.1 KiB [emitted] (name: ./src/specs/example-spec) 1 related asset
+Entrypoint ./src/specs/example-spec 140 KiB (155 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/example-spec.js 12.1 KiB 2 auxiliary assets
+webpack compiled successfully
+[info] [2022-11-30T11:03:12.330Z]
+Starting Appium Server at: localhost:56773
+[2022-11-30T11:03:12.557Z]
+Task started On Wednesday 30-Nov-2022 At 12:03:12:556 GMT+01:00
+[2022-11-30T11:03:12.557Z]
+Running tests in the following Clients:
+- android:chrome
+
+[2022-11-30T11:03:20.665Z]
+▶ Feature : Start ------------------
+[2022-11-30T11:03:20.666Z]
+ Name      : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:20:662 GMT+01:00
+
+[2022-11-30T11:03:20.667Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:20.668Z]
+▶ Scenario : Start -------------------
+[2022-11-30T11:03:20.669Z]
+ Name      : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:20:668 GMT+01:00
+
+[2022-11-30T11:03:20.670Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:20.671Z]
+▶ Given : Start ----------------
+[2022-11-30T11:03:20.672Z]
+ Name      : We Visit google search page
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:20:671 GMT+01:00
+
+[2022-11-30T11:03:20.672Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:20.676Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:20.884Z]
+ Type        : Method
+ Name        : I.goto("https://google.com/")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Visit google search page
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:20:674 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 7 |         await I.goto(`https://google.com/`);
+    |                 ^
+[2022-11-30T11:03:20.885Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:25.106Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:03:25.115Z]
+ Type        : Method
+ Name        : I.goto("https://google.com/")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Visit google search page
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:20:674 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:25:105 GMT+01:00
+ Duration    : 00:00:04.431
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 7 |         await I.goto(`https://google.com/`);
+    |                 ^
+[2022-11-30T11:03:25.115Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:25.119Z]
+▶ Selector  : Start --------------------
+[2022-11-30T11:03:25.121Z]
+ Init        : Selector("[role="dialog"] .VDity button:last-of-type")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Visit google search page
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:25:117 GMT+01:00
+
+[2022-11-30T11:03:25.122Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:27.194Z]
+ⓧ Selector  : Done -------------------
+[2022-11-30T11:03:27.197Z]
+ Init        : Selector("[role="dialog"] .VDity button:last-of-type")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Visit google search page
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:25:117 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:27:193 GMT+01:00
+ Duration    : 00:00:02.076
+
+[2022-11-30T11:03:27.198Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:27.199Z]
+▶ Selector Action : Start --------------------------
+[2022-11-30T11:03:27.208Z]
+ Init        : Selector("[role="dialog"] .VDity button:last-of-type")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Type        : Property
+ Name        : exists
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Visit google search page
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:25:117 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 11 |         if (await dialogModal.exists) {
+     |                               ^
+[2022-11-30T11:03:27.210Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:27.211Z]
+✔ Selector Action : Done -------------------------
+[2022-11-30T11:03:27.221Z]
+ Init        : Selector("[role="dialog"] .VDity button:last-of-type")
+ options     : {
+                  retries: "INFINITELY",
+                  timeout: 2000
+              }
+ Type        : Property
+ Name        : exists
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Visit google search page
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:25:117 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:27:211 GMT+01:00
+ Duration    : 00:00:02.094
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 11 |         if (await dialogModal.exists) {
+     |                               ^
+[2022-11-30T11:03:27.222Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:27.225Z]
+✔ Given : Done ---------------
+[2022-11-30T11:03:27.226Z]
+ Name      : We Visit google search page
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:20:671 GMT+01:00
+ End Time  : Wednesday 30-Nov-2022 At 12:03:27:223 GMT+01:00
+ Duration  : 00:00:06.553
+[2022-11-30T11:03:27.227Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:27.228Z]
+▶ When : Start ---------------
+[2022-11-30T11:03:27.230Z]
+ Name      : We Search For Query
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:27:227 GMT+01:00
+
+[2022-11-30T11:03:27.231Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:27.556Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:27.562Z]
+ Type        : Method
+ Name        : I.fillField("[name="q"]","knowledge expert")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:27:414 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 17 |         await I.fillField(`[name="q"]`, `knowledge expert`)
+     |                 ^
+[2022-11-30T11:03:27.563Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:27.564Z]
+▶ Selector  : Start --------------------
+[2022-11-30T11:03:27.566Z]
+ Init        : Selector("[name="q"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:27:564 GMT+01:00
+
+[2022-11-30T11:03:27.567Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:27.666Z]
+✔ Selector  : Done -------------------
+[2022-11-30T11:03:27.667Z]
+ Init        : Selector("[name="q"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:27:564 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:27:666 GMT+01:00
+ Duration    : 00:00:00.102
+
+[2022-11-30T11:03:27.668Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:28.664Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:03:28.674Z]
+ Type        : Method
+ Name        : I.fillField("[name="q"]","knowledge expert")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:27:414 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:28:664 GMT+01:00
+ Duration    : 00:00:01.250
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 17 |         await I.fillField(`[name="q"]`, `knowledge expert`)
+     |                 ^
+[2022-11-30T11:03:28.675Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:28.915Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:28.921Z]
+ Type        : Method
+ Name        : I.pressEnterKey()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:27:414 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 18 |                .pressEnterKey();
+     |                 ^
+[2022-11-30T11:03:28.921Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:29.408Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:03:29.414Z]
+ Type        : Method
+ Name        : I.pressEnterKey()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:27:414 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:29:408 GMT+01:00
+ Duration    : 00:00:01.994
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 18 |                .pressEnterKey();
+     |                 ^
+[2022-11-30T11:03:29.415Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:29.417Z]
+✔ When : Done --------------
+[2022-11-30T11:03:29.418Z]
+ Name      : We Search For Query
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:27:227 GMT+01:00
+ End Time  : Wednesday 30-Nov-2022 At 12:03:29:416 GMT+01:00
+ Duration  : 00:00:02.188
+[2022-11-30T11:03:29.419Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:29.421Z]
+▶ Then : Start ---------------
+[2022-11-30T11:03:29.422Z]
+ Name      : We Get result
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:29:420 GMT+01:00
+
+[2022-11-30T11:03:29.423Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:30.522Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:30.530Z]
+ Type        : Method
+ Name        : I.click("//*[text()="Knowledge Expert"]")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:30:388 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 21 |    await I.click(`//*[text()="Knowledge Expert"]`)
+     |            ^
+[2022-11-30T11:03:30.531Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:30.533Z]
+▶ Selector  : Start --------------------
+[2022-11-30T11:03:30.536Z]
+ Init        : Selector("//*[text()="Knowledge Expert"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:30:533 GMT+01:00
+
+[2022-11-30T11:03:30.537Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:30.573Z]
+✔ Selector  : Done -------------------
+[2022-11-30T11:03:30.574Z]
+ Init        : Selector("//*[text()="Knowledge Expert"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:30:533 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:30:572 GMT+01:00
+ Duration    : 00:00:00.039
+
+[2022-11-30T11:03:30.575Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:31.622Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:03:31.628Z]
+ Type        : Method
+ Name        : I.click("//*[text()="Knowledge Expert"]")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:30:388 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:31:621 GMT+01:00
+ Duration    : 00:00:01.233
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 21 |    await I.click(`//*[text()="Knowledge Expert"]`)
+     |            ^
+[2022-11-30T11:03:31.628Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:31.629Z]
+✔ Then : Done --------------
+[2022-11-30T11:03:31.630Z]
+ Name      : We Get result
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:29:420 GMT+01:00
+ End Time  : Wednesday 30-Nov-2022 At 12:03:31:629 GMT+01:00
+ Duration  : 00:00:02.209
+[2022-11-30T11:03:31.631Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:31.632Z]
+▶ Then : Start ---------------
+[2022-11-30T11:03:31.633Z]
+ Name      : We Try Pega Elements
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:31:631 GMT+01:00
+
+[2022-11-30T11:03:31.635Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:33.208Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:33.214Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:33:208 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-11-30T11:03:33.216Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[info] [2022-11-30T11:03:33.216Z]
+❯ Test Maker Debugger Is Active, press 'f' if you want to continue.
+
+[2022-11-30T11:03:40.183Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:03:40.187Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:33:208 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:40:183 GMT+01:00
+ Duration    : 00:00:06.975
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-11-30T11:03:40.187Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:40.298Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:40.416Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@id="MENU_AS_CONTAINER_TOGGLE"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:40:188 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-11-30T11:03:40.417Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:40.419Z]
+▶ Selector  : Start --------------------
+[2022-11-30T11:03:40.421Z]
+ Init        : Selector("//*[@id="MENU_AS_CONTAINER_TOGGLE"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:40:418 GMT+01:00
+
+[2022-11-30T11:03:40.422Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:40.422Z]
+▶ Selector Action : Start --------------------------
+[2022-11-30T11:03:40.473Z]
+ Init        : Selector("//*[@id="MENU_AS_CONTAINER_TOGGLE"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:40:422 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |         ^
+[2022-11-30T11:03:40.474Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:40.558Z]
+✔ Selector  : Done -------------------
+[2022-11-30T11:03:40.560Z]
+ Init        : Selector("//*[@id="MENU_AS_CONTAINER_TOGGLE"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:40:418 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:40:558 GMT+01:00
+ Duration    : 00:00:00.140
+
+[2022-11-30T11:03:40.561Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:41.577Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:03:41.633Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@id="MENU_AS_CONTAINER_TOGGLE"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:40:188 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:41:576 GMT+01:00
+ Duration    : 00:00:01.388
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-11-30T11:03:41.634Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:41.635Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:41.642Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:41:634 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-11-30T11:03:41.643Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[info] [2022-11-30T11:03:41.643Z]
+❯ Test Maker Debugger Is Active, press 'f' if you want to continue.
+
+[2022-11-30T11:03:43.974Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:03:43.977Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:41:634 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:43:974 GMT+01:00
+ Duration    : 00:00:02.340
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-11-30T11:03:43.978Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:44.088Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:44.124Z]
+ Type        : Method
+ Name        : I.click(Selector("//a[text()="KE Teams"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:43:979 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-11-30T11:03:44.125Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:44.128Z]
+▶ Selector  : Start --------------------
+[2022-11-30T11:03:44.130Z]
+ Init        : Selector("//a[text()="KE Teams"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:44:127 GMT+01:00
+
+[2022-11-30T11:03:44.130Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:44.131Z]
+▶ Selector Action : Start --------------------------
+[2022-11-30T11:03:44.137Z]
+ Init        : Selector("//a[text()="KE Teams"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:44:131 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-11-30T11:03:44.138Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:44.182Z]
+✔ Selector  : Done -------------------
+[2022-11-30T11:03:44.184Z]
+ Init        : Selector("//a[text()="KE Teams"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Wednesday 30-Nov-2022 At 12:03:44:127 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:44:182 GMT+01:00
+ Duration    : 00:00:00.055
+
+[2022-11-30T11:03:44.185Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[error] [2022-11-30T11:03:44.265Z]
+(node:16660) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 shutdown listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2022-11-30T11:03:44.744Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:03:44.806Z]
+ Type        : Method
+ Name        : I.click(Selector("//a[text()="KE Teams"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:43:979 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:03:44:743 GMT+01:00
+ Duration    : 00:00:00.764
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-11-30T11:03:44.807Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:03:44.808Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-30T11:03:44.814Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:44:807 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-11-30T11:03:44.815Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[info] [2022-11-30T11:03:44.816Z]
+❯ Test Maker Debugger Is Active, press 'f' if you want to continue.
+
+[2022-11-30T11:04:05.322Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-30T11:04:05.327Z]
+ Type        : Method
+ Name        : I.debugger()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Try Pega Elements
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Wednesday 30-Nov-2022 At 12:03:44:807 GMT+01:00
+ End Time    : Wednesday 30-Nov-2022 At 12:04:05:322 GMT+01:00
+ Duration    : 00:00:20.515
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-11-30T11:04:05.328Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:04:05.329Z]
+✔ Then : Done --------------
+[2022-11-30T11:04:05.330Z]
+ Name      : We Try Pega Elements
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:31:631 GMT+01:00
+ End Time  : Wednesday 30-Nov-2022 At 12:04:05:328 GMT+01:00
+ Duration  : 00:00:33.697
+[2022-11-30T11:04:05.330Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:04:05.331Z]
+✔ Scenario : Done ------------------
+[2022-11-30T11:04:05.332Z]
+ Name      : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:20:668 GMT+01:00
+ End Time  : Wednesday 30-Nov-2022 At 12:04:05:331 GMT+01:00
+ Duration  : 00:00:44.663
+[2022-11-30T11:04:05.333Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:04:05.334Z]
+✔ Feature : Done -----------------
+[2022-11-30T11:04:05.335Z]
+ Name      : Example Feature
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Wednesday 30-Nov-2022 At 12:03:20:662 GMT+01:00
+ End Time  : Wednesday 30-Nov-2022 At 12:04:05:333 GMT+01:00
+ Duration  : 00:00:44.670
+[2022-11-30T11:04:05.336Z]
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-11-30T11:04:05.336Z]
+▶ Finished 1 of 1 Implemented Features 
+[2022-11-30T11:04:05.336Z]
+
+
+[2022-11-30T11:04:05.857Z]
+
+  ┌────────────────────────────────┬───────────────────────────┬───────────────────────────┬────────────┬────────────┐
+  │            Feature             │         Scenarios         │           Steps           │  Duration  │   Status   │
+  ├────────────────────────────────┼───────────────────────────┼───────────────────────────┼────────────┼────────────┤
+  │        Example Feature         │         Passed: 1         │         Passed: 4         │ 00:00:44.6 │   passed   │
+  │   src/specs/example-spec.ts    │         Failed: 0         │         Failed: 0         │     71     │            │
+  │                                │        Skipped: 0         │        Skipped: 0         │            │            │
+  │                                │       Undefined: 0        │       Undefined: 0        │            │            │
+  │                                │                           │                           │            │            │
+  └────────────────────────────────┴───────────────────────────┴───────────────────────────┴────────────┴────────────┘

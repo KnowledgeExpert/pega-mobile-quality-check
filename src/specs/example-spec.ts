@@ -1,4 +1,5 @@
 import { Feature, Selector, Controller } from 'test-maker';
+import { pega} from "pega-model";
 
 Feature(`Example Feature`)
     .Scenario(`Example Scenario`)
@@ -17,8 +18,27 @@ Feature(`Example Feature`)
                .pressEnterKey();
     })
     .Then(`We Get result`, async (I: Controller) => {
+   await I.click(`//*[text()="Knowledge Expert"]`)
+        
+    })
+    .Then(`We Try Pega Elements`, async (I: Controller) => {
+        await I.debugger()
+        if(await Selector(`//*[text()="Accept All"]`).exists){
+            await pega.elementByXpath(`//*[text()="Accept All"]`).click();       
 
-        const firstResult = Selector(`h3`).withText(`Knowledge Expert - Digital Transformation`);
+        }
+         await pega.elementByXpath(`//*[@id="MENU_AS_CONTAINER_TOGGLE"]`).click();
+         await I.debugger()
 
-        await I.expect(firstResult.innerText).toEqual(`Knowledge Expert - Digital Transformation`);
-    });
+        await pega.elementByXpath(`//button[@aria-label="KE Teams"]`).click();
+        await pega.elementByXpath(`//a[text()="Tech Knights"]`).click();
+        await I.debugger()
+
+        await pega.elementByXpath(`//*[text()="CONNECT WITH KE"]`).click()
+        await pega.elementById({id:"input_comp-kzxoooua"}).set("ke@gmail.com")
+        await pega.elementById({id:'input_comp-kzxooouq'}).set("Test")
+        await pega.textAreaById(`textarea_comp-kzxoooux`).set("test")
+        await pega.buttonByDataTestId("buttonElement").click()
+        await I.debugger()
+   
+        })

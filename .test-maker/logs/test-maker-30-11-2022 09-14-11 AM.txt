@@ -1,0 +1,73 @@
+[info] [2022-11-30T08:14:12.369Z]
+
+Starting Test Maker 7.5.3
+
+[info] [2022-11-30T08:14:12.399Z]
+Compiling Test Maker Config File: D:/pega-mobile-quality-check/test-maker.local.ts
+[info] [2022-11-30T08:14:14.107Z]
+Loading Test Maker System Modules
+[info] [2022-11-30T08:14:14.108Z]
+- Loading Test Maker Plugins
+[info] [2022-11-30T08:14:14.523Z]
+- Loading Test Maker Reporters:
+[info] [2022-11-30T08:14:14.524Z]
+- Loading Test Maker Adapters:
+[info] [2022-11-30T08:14:15.604Z]
+  - appium
+[info] [2022-11-30T08:14:15.605Z]
+    - Loading Client: android:chrome
+[info] [2022-11-30T08:14:15.627Z]
+
+Debugging is enabled for enabled
+[info] [2022-11-30T08:14:15.628Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-11-30T08:14:15.677Z]
+
+- Deleting Old Reporters Files
+[info] [2022-11-30T08:14:15.681Z]
+- Compiling Spec Files
+
+[2022-11-30T08:14:16.020Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/example-spec.js 11.3 KiB [compared for emit] (name: ./src/specs/example-spec) 1 related asset
+Entrypoint ./src/specs/example-spec 140 KiB (155 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/example-spec.js 11.3 KiB 2 auxiliary assets
+webpack compiled successfully
+[info] [2022-11-30T08:14:18.183Z]
+Starting Appium Server at: localhost:52726
+[2022-11-30T08:14:18.355Z]
+Task started On Wednesday 30-Nov-2022 At 09:14:18:354 GMT+01:00
+[2022-11-30T08:14:18.355Z]
+Running tests in the following Clients:
+- android:chrome
+
+[2022-11-30T08:15:00.821Z]
+Error: Failed to create session.
+An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20105ms.
+    at startWebDriverSession (D:\pega-mobile-quality-check\node_modules\webdriver\build\utils.js:73:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Function.newSession (D:\pega-mobile-quality-check\node_modules\webdriver\build\index.js:46:45)
+    at remote (D:\pega-mobile-quality-check\node_modules\webdriverio\build\index.js:77:22)
+    at _0xd69304.start (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\helpers\webdriver-remote.ts:15:27)
+    at _0x589569.baseClientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:98:13)
+    at _0x589569.clientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\appium\adapter.ts:178:16)
+    at _0x3aaa36.createClientInstance (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:588:40)
+    at _0x3aaa36.getClient (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:555:50)
+    at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:174:84
+    at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+[2022-11-30T08:15:00.824Z]
+TypeError: Cannot read properties of undefined (reading 'getContext')
+    at _0x1d106e.setup (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\controller.ts:74:77)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _0x589569.getApi (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:174:9)
+    at _0x589569.baseClientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:108:20)
+    at _0x589569.clientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\appium\adapter.ts:178:16)
+    at _0x3aaa36.createClientInstance (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:588:40)
+    at _0x3aaa36.getClient (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:555:50)
+    at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:174:84
+    at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)

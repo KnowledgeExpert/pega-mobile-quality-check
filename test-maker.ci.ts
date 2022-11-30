@@ -13,7 +13,12 @@ const testMakerCIConfig: Configuration = {
         reporters: [reporters.terminal, reporters.allure],
         screenshots: {
             enabled: true
+        },
+        video:{ 
+            enabled:true,
+            failedOnly:false
         }
+
     },
 };
 export default testMakerCIConfig;
