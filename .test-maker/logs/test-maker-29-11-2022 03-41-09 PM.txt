@@ -1,0 +1,610 @@
+[info] [2022-11-29T14:41:09.653Z]
+
+Starting Test Maker 7.5.3
+
+[info] [2022-11-29T14:41:09.674Z]
+Compiling Test Maker Config File: D:/pega-mobile-quality-check/test-maker.local.ts
+[info] [2022-11-29T14:41:10.664Z]
+Loading Test Maker System Modules
+[info] [2022-11-29T14:41:10.664Z]
+- Loading Test Maker Plugins
+[info] [2022-11-29T14:41:10.839Z]
+- Loading Test Maker Reporters:
+[info] [2022-11-29T14:41:10.839Z]
+- Loading Test Maker Adapters:
+[info] [2022-11-29T14:41:11.476Z]
+  - playwright
+[info] [2022-11-29T14:41:11.476Z]
+    - Loading Client: chrome
+[info] [2022-11-29T14:41:11.492Z]
+
+Debugging is enabled for enabled
+[info] [2022-11-29T14:41:11.492Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-11-29T14:41:11.526Z]
+
+- Deleting Old Reporters Files
+[info] [2022-11-29T14:41:11.532Z]
+- Compiling Spec Files
+
+[2022-11-29T14:41:11.901Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/example-spec.js 10.9 KiB [compared for emit] (name: ./src/specs/example-spec) 1 related asset
+Entrypoint ./src/specs/example-spec 139 KiB (155 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/example-spec.js 10.9 KiB 2 auxiliary assets
+webpack compiled successfully
+[2022-11-29T14:41:12.048Z]
+Task started On Tuesday 29-Nov-2022 At 15:41:12:048 GMT+01:00
+[2022-11-29T14:41:12.049Z]
+Running tests in the following Clients:
+- chrome
+
+[2022-11-29T14:41:13.230Z]
+▶ Feature : Start ------------------
+[2022-11-29T14:41:13.231Z]
+ Name      : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:13:227 GMT+01:00
+
+[2022-11-29T14:41:13.232Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:13.235Z]
+▶ Scenario : Start -------------------
+[2022-11-29T14:41:13.236Z]
+ Name      : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:13:234 GMT+01:00
+
+[2022-11-29T14:41:13.237Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:13.240Z]
+▶ Given : Start ----------------
+[2022-11-29T14:41:13.241Z]
+ Name      : We Visit google search page
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:13:239 GMT+01:00
+
+[2022-11-29T14:41:13.242Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:13.246Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-29T14:41:13.282Z]
+ Type        : Method
+ Name        : I.goto("https://google.com/")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Visit google search page
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:13:244 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 6 |         await I.goto(`https://google.com/`);
+    |                 ^
+[2022-11-29T14:41:13.283Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.073Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-29T14:41:16.079Z]
+ Type        : Method
+ Name        : I.goto("https://google.com/")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Visit google search page
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:13:244 GMT+01:00
+ End Time    : Tuesday 29-Nov-2022 At 15:41:16:073 GMT+01:00
+ Duration    : 00:00:02.829
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 6 |         await I.goto(`https://google.com/`);
+    |                 ^
+[2022-11-29T14:41:16.079Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.080Z]
+✔ Given : Done ---------------
+[2022-11-29T14:41:16.082Z]
+ Name      : We Visit google search page
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:13:239 GMT+01:00
+ End Time  : Tuesday 29-Nov-2022 At 15:41:16:080 GMT+01:00
+ Duration  : 00:00:02.840
+[2022-11-29T14:41:16.083Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.083Z]
+▶ When : Start ---------------
+[2022-11-29T14:41:16.084Z]
+ Name      : We Search For Query
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:16:083 GMT+01:00
+
+[2022-11-29T14:41:16.084Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.090Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-29T14:41:16.095Z]
+ Type        : Method
+ Name        : I.fillField("[name="q"]","knowledge expert")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:16:087 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 16 |         await I.fillField(`[name="q"]`, `knowledge expert`)
+     |                 ^
+[2022-11-29T14:41:16.096Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.098Z]
+▶ Selector  : Start --------------------
+[2022-11-29T14:41:16.100Z]
+ Init        : Selector("[name="q"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 29-Nov-2022 At 15:41:16:097 GMT+01:00
+
+[2022-11-29T14:41:16.101Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.151Z]
+✔ Selector  : Done -------------------
+[2022-11-29T14:41:16.153Z]
+ Init        : Selector("[name="q"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 29-Nov-2022 At 15:41:16:097 GMT+01:00
+ End Time    : Tuesday 29-Nov-2022 At 15:41:16:150 GMT+01:00
+ Duration    : 00:00:00.053
+
+[2022-11-29T14:41:16.154Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.255Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-29T14:41:16.260Z]
+ Type        : Method
+ Name        : I.fillField("[name="q"]","knowledge expert")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:16:087 GMT+01:00
+ End Time    : Tuesday 29-Nov-2022 At 15:41:16:255 GMT+01:00
+ Duration    : 00:00:00.168
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 16 |         await I.fillField(`[name="q"]`, `knowledge expert`)
+     |                 ^
+[2022-11-29T14:41:16.261Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.264Z]
+▶ Controller Action : Start ----------------------------
+[2022-11-29T14:41:16.268Z]
+ Type        : Method
+ Name        : I.pressEnterKey()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:16:087 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 17 |                .pressEnterKey();
+     |                 ^
+[2022-11-29T14:41:16.269Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.276Z]
+✔ Controller Action : Done ---------------------------
+[2022-11-29T14:41:16.281Z]
+ Type        : Method
+ Name        : I.pressEnterKey()
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Search For Query
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:16:087 GMT+01:00
+ End Time    : Tuesday 29-Nov-2022 At 15:41:16:276 GMT+01:00
+ Duration    : 00:00:00.189
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 17 |                .pressEnterKey();
+     |                 ^
+[2022-11-29T14:41:16.281Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.282Z]
+✔ When : Done --------------
+[2022-11-29T14:41:16.283Z]
+ Name      : We Search For Query
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:16:083 GMT+01:00
+ End Time  : Tuesday 29-Nov-2022 At 15:41:16:282 GMT+01:00
+ Duration  : 00:00:00.199
+[2022-11-29T14:41:16.283Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.284Z]
+▶ Then : Start ---------------
+[2022-11-29T14:41:16.284Z]
+ Name      : We Get result
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:16:283 GMT+01:00
+
+[2022-11-29T14:41:16.285Z]
+---------------------------------------------------------------------------------------------------------------
+
+[info] [2022-11-29T14:41:16.565Z]
+[info] [On Tuesday 29-Nov-2022 At 15:41:16:563 GMT+01:00] [Feature: Example Feature] [Scenario: Example Scenario] [Step: We Get result]Could not inject Test Maker Default Assets due to Page navigation, CORS issues, etc... This is ok if no errors result from that.
+[2022-11-29T14:41:16.572Z]
+▶ Assertion  : Start ---------------------
+[2022-11-29T14:41:16.574Z]
+ Init        : Expect({ /* Promise */ })()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:16:569 GMT+01:00
+
+[2022-11-29T14:41:16.575Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.577Z]
+▶ Selector  : Start --------------------
+[2022-11-29T14:41:16.580Z]
+ Init        : Selector("h3")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 29-Nov-2022 At 15:41:16:576 GMT+01:00
+
+[2022-11-29T14:41:16.581Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:16.583Z]
+▶ Selector Action : Start --------------------------
+[2022-11-29T14:41:16.594Z]
+ Init        : Selector("h3")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Method
+ Name        : withText("Knowledge Expert - Digital Transformation")
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 29-Nov-2022 At 15:41:16:582 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 23 |         await I.expect(firstResult.innerText).toEqual(`Knowledge Expert - Digital Transformation`);
+     |                                    ^
+[2022-11-29T14:41:16.595Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.002Z]
+✔ Selector  : Done -------------------
+[2022-11-29T14:41:17.005Z]
+ Init        : Selector("h3")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 29-Nov-2022 At 15:41:16:576 GMT+01:00
+ End Time    : Tuesday 29-Nov-2022 At 15:41:17:001 GMT+01:00
+ Duration    : 00:00:00.425
+
+[2022-11-29T14:41:17.006Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.007Z]
+▶ Selector Action : Start --------------------------
+[2022-11-29T14:41:17.013Z]
+ Init        : Selector("h3")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Property
+ Name        : innerText
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 29-Nov-2022 At 15:41:16:576 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 23 |         await I.expect(firstResult.innerText).toEqual(`Knowledge Expert - Digital Transformation`);
+     |                                    ^
+[2022-11-29T14:41:17.014Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.034Z]
+✔ Selector Action : Done -------------------------
+[2022-11-29T14:41:17.040Z]
+ Init        : Selector("h3")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Type        : Property
+ Name        : innerText
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ StartTime   : Tuesday 29-Nov-2022 At 15:41:16:576 GMT+01:00
+ End Time    : Tuesday 29-Nov-2022 At 15:41:17:034 GMT+01:00
+ Duration    : 00:00:00.458
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 23 |         await I.expect(firstResult.innerText).toEqual(`Knowledge Expert - Digital Transformation`);
+     |                                    ^
+[2022-11-29T14:41:17.041Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.042Z]
+▶ Assertion Action : Start ---------------------------
+[2022-11-29T14:41:17.047Z]
+ Action      : Expect({ /* Promise */ }).toEqual("Knowledge Expert - Digital Transformation")
+ Retries     : 0
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:17:042 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 23 |         await I.expect(firstResult.innerText).toEqual(`Knowledge Expert - Digital Transformation`);
+     |                                               ^
+[2022-11-29T14:41:17.048Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.049Z]
+✔ Assertion Action : Done --------------------------
+[2022-11-29T14:41:17.054Z]
+ Action      : Expect({ /* Promise */ }).toEqual("Knowledge Expert - Digital Transformation")
+ Retries     : 0
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:17:042 GMT+01:00
+ End Time    : Tuesday 29-Nov-2022 At 15:41:17:048 GMT+01:00
+ Duration    : 00:00:00.006
+ File        : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Source      : 
+> 23 |         await I.expect(firstResult.innerText).toEqual(`Knowledge Expert - Digital Transformation`);
+     |                                               ^
+[2022-11-29T14:41:17.054Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.055Z]
+✔ Assertion  : Done --------------------
+[2022-11-29T14:41:17.056Z]
+ Init        : Expect({ /* Promise */ })()
+ Retries     : 0
+ Phase       : Step
+ Feature     : Example Feature
+ Scenario    : Example Scenario
+ Step        : We Get result
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : playwright
+ Client      : Chrome 107.0.0.0 / Windows 10
+ in isAppBusy: false
+ Start Time  : Tuesday 29-Nov-2022 At 15:41:16:569 GMT+01:00
+ End Time    : Tuesday 29-Nov-2022 At 15:41:17:049 GMT+01:00
+ Duration    : 00:00:00.480
+
+[2022-11-29T14:41:17.057Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.058Z]
+✔ Then : Done --------------
+[2022-11-29T14:41:17.059Z]
+ Name      : We Get result
+ Scenario  : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:16:283 GMT+01:00
+ End Time  : Tuesday 29-Nov-2022 At 15:41:17:057 GMT+01:00
+ Duration  : 00:00:00.774
+[2022-11-29T14:41:17.059Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.060Z]
+✔ Scenario : Done ------------------
+[2022-11-29T14:41:17.061Z]
+ Name      : Example Scenario
+ Feature   : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:13:234 GMT+01:00
+ End Time  : Tuesday 29-Nov-2022 At 15:41:17:060 GMT+01:00
+ Duration  : 00:00:03.825
+[2022-11-29T14:41:17.062Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.063Z]
+✔ Feature : Done -----------------
+[2022-11-29T14:41:17.064Z]
+ Name      : Example Feature
+ Retries   : 0
+ Adapter   : playwright
+ Client    : Chrome 107.0.0.0 / Windows 10
+ File      : D:/pega-mobile-quality-check/src/specs/example-spec.ts
+ Start Time: Tuesday 29-Nov-2022 At 15:41:13:227 GMT+01:00
+ End Time  : Tuesday 29-Nov-2022 At 15:41:17:062 GMT+01:00
+ Duration  : 00:00:03.834
+[2022-11-29T14:41:17.065Z]
+---------------------------------------------------------------------------------------------------------------
+
+[2022-11-29T14:41:17.065Z]
+▶ Finished 1 of 1 Implemented Features 
+[2022-11-29T14:41:17.065Z]
+
+
+[2022-11-29T14:41:17.101Z]
+
+  ┌──────────────────────────────┬─────────────────────────┬─────────────────────────┬───────────┬───────────┐
+  │           Feature            │        Scenarios        │          Steps          │ Duration  │  Status   │
+  ├──────────────────────────────┼─────────────────────────┼─────────────────────────┼───────────┼───────────┤
+  │       Example Feature        │        Passed: 1        │        Passed: 3        │ 00:00:03. │  passed   │
+  │  src/specs/example-spec.ts   │        Failed: 0        │        Failed: 0        │    835    │           │
+  │                              │       Skipped: 0        │       Skipped: 0        │           │           │
+  │                              │      Undefined: 0       │      Undefined: 0       │           │           │
+  │                              │                         │                         │           │           │
+  └──────────────────────────────┴─────────────────────────┴─────────────────────────┴───────────┴───────────┘

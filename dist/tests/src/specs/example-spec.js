@@ -30,6 +30,12 @@ __webpack_require__.r(__webpack_exports__);
     .Given(`We Visit google search page`, async (I) => {
     try {
         await I.goto(`https://google.com/`);
+        // uncomment the code below if from your location google shows a popup asking for user's consent for data and cookies
+        const dialogModal = (0,test_maker__WEBPACK_IMPORTED_MODULE_1__.Selector)(`[role="dialog"] .VDity button:last-of-type`, { timeout: 2000 });
+        if (await dialogModal.exists) {
+            await I.focus(dialogModal);
+            await I.pressEnterKey();
+        }
     }
     catch (e) {
         e.fromSpec = true;

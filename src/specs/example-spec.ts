@@ -6,11 +6,11 @@ Feature(`Example Feature`)
         await I.goto(`https://google.com/`);
 
         // uncomment the code below if from your location google shows a popup asking for user's consent for data and cookies
-        // const dialogModal = Selector(`button[id="L2AGLb"]`, { timeout: 2000 });
-        // if (await dialogModal.exists) {
-        //     await I.focus(dialogModal);
-        //     await I.pressEnterKey();
-        // }
+        const dialogModal = Selector(`[role="dialog"] .VDity button:last-of-type`, { timeout: 2000 });
+        if (await dialogModal.exists) {
+            await I.focus(dialogModal);
+            await I.pressEnterKey();
+        }
     })
     .When(`We Search For Query`, async (I) => {
         await I.fillField(`[name="q"]`, `knowledge expert`)
