@@ -69,20 +69,17 @@ __webpack_require__.r(__webpack_exports__);
 })
     .Then(`We Try Pega Elements`, async (I) => {
     try {
-        await I.debugger();
         if (await (0,test_maker__WEBPACK_IMPORTED_MODULE_1__.Selector)(`//*[text()="Accept All"]`).exists) {
             await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//*[text()="Accept All"]`).click();
         }
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//*[@id="MENU_AS_CONTAINER_TOGGLE"]`).click();
-        await I.debugger();
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//button[@aria-label="KE Teams"]`).click();
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//a[text()="Tech Knights"]`).click();
-        await I.debugger();
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//*[text()="CONNECT WITH KE"]`).click();
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementById({ id: "input_comp-kzxoooua" }).set("ke@gmail.com");
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementById({ id: 'input_comp-kzxooouq' }).set("Test");
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.textAreaById(`textarea_comp-kzxoooux`).set("test");
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("buttonElement").click();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//*[text()="Send"]`).click();
         await I.debugger();
     }
     catch (e) {
