@@ -36,7 +36,7 @@ __webpack_require__.r(__webpack_exports__);
 async function pegaLoginTestApp() {
     await test_maker__WEBPACK_IMPORTED_MODULE_2__.I.goto((0,_src_utilities_getUrl__WEBPACK_IMPORTED_MODULE_3__.getUrl)('https://pega870-web.tm.k-expert.com/prweb/app/default/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD'));
     await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementById({ id: 'txtUserID' }).set(`test.cafe1`);
-    await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementById({ id: 'txtPassword' }).set(`Rulesnov22!`);
+    await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementById({ id: 'txtPassword' }).set(`Rulesnov22!!`);
     await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.buttonById('sub').click();
     //     await I.resizeWindow(1920, 1080);
     //     // await I.maximizeWindow();
@@ -206,7 +206,6 @@ __webpack_require__.r(__webpack_exports__);
     try {
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.frame.switchToDefault();
         await _model_app__WEBPACK_IMPORTED_MODULE_3__.app["case"].createCaseWithTitle("TestCafe");
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
     }
     catch (e) {
         e.fromSpec = true;
@@ -227,7 +226,6 @@ __webpack_require__.r(__webpack_exports__);
     .Then('Text Area Check', async (_I, _runInfo) => {
     try {
         await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.textInputByDataTestId("TestTextInput").set("test");
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.textInputById("7cb3eb52").set("test");
     }
     catch (e) {
         e.fromSpec = true;
@@ -245,35 +243,105 @@ __webpack_require__.r(__webpack_exports__);
         throw e;
     }
 })
-    .Then('Check Box Check', async (_I, _runInfo) => {
-    try {
-        // await I.debugger()
-        // await pega.elementByXpath(`//*[@data-test-id="CheckBox"]`).check()
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.checkboxByDataTestId("CheckBox").check();
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
-    }
-    catch (e) {
-        e.fromSpec = true;
-        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
-        throw e;
-    }
-})
-    .Then('Check Box 2 Check', async (_I, _runInfo) => {
-    try {
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.checkboxById("022f3283").check();
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
-    }
-    catch (e) {
-        e.fromSpec = true;
-        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
-        throw e;
-    }
-})
+    // .Then('Check Box Check', async (_I, _runInfo) => {
+    //     // await I.debugger()
+    //     // await pega.elementByXpath(`//*[@data-test-id="CheckBox"]`).check()
+    //     await I.debugger()
+    //     await pega.checkboxByDataTestId("CheckBox").check();
+    //     await I.debugger()
+    // })
+    // .Then('Check Box 2 Check', async (_I, _runInfo) => {
+    //      await I.debugger()
+    //     await pega.checkboxById("022f3283").check();
+    //        await I.debugger()
+    // })
     .Then('Slider Check', async (_I, _runInfo) => {
     try {
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementById({ id: "34452f0e" }).set(80);
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
+        throw e;
+    }
+})
+    .Then('Radio button Check', async (_I, _runInfo) => {
+    try {
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.radioButtonByPartialId(`59a458bbProse`).click("Prose");
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
+        throw e;
+    }
+})
+    .Then('Textarea Check', async (_I, _runInfo) => {
+    try {
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.textAreaByDataTestId(`2020040704574204631295`).set("test");
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
+        throw e;
+    }
+})
+    .Then('Button Check', async (_I, _runInfo) => {
+    try {
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId(`202009180548390421478`).click();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
+        throw e;
+    }
+})
+    // .Then('Text Input Check', async (_I, _runInfo) => {
+    //     await pega.datePickerByDataTestId("2020040704574204642498").set(today.toString());
+    // })
+    .Then('Right Click Check', async (_I, _runInfo) => {
+    try {
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("RightClick").rightClick();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
+        throw e;
+    }
+})
+    .Then('Duble Click Check', async (_I, _runInfo) => {
+    try {
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("DoubleClick").doubleClick();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
+        throw e;
+    }
+})
+    .Then('Hover button Check', async (_I, _runInfo) => {
+    try {
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("HoverButton").hoverAndClick();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
+        throw e;
+    }
+})
+    // .Then('New Window Fill Check', async (_I, _runInfo) => {
+    //     await pega.buttonByDataTestId("2020040704574204653718").click();
+    //     await pega.textInputByDataTestId("202004070507140328a681364c-c680-4f4f-ad94-b3c67b24de71782").paste("test")
+    //     await pega.textInputByDataTestId("202004070523280603b6effa15-90b9-4285-b1a5-eb93e69b70c3180").paste("test")
+    //     await pega.radioButtonByPartialId("bf4dd451false").click("False");
+    //     await pega.autocompletionFieldByDataTestId("202004070523280604f8b407b8-261b-410d-b6d3-4cd999cec8e9193").filterAndSelect("France")
+    //     await pega.multiselectById("fafff1e2").selectValuesFromList(["Choice1","Choice3"]);
+    //     //await pega.buttonById("ModalButtonSubmit").click();
+    //     await pega.buttonById("ModalButtonCancel").click();
+    // })
+    .Then('upload', async (_I, _runInfo) => {
+    try {
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("2020040704574204654271").click();
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.handleConfirmDialog();
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
     }
     catch (e) {
         e.fromSpec = true;
