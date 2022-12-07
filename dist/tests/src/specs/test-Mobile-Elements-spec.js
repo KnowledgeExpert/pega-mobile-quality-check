@@ -36,7 +36,7 @@ __webpack_require__.r(__webpack_exports__);
 async function pegaLoginTestApp() {
     await test_maker__WEBPACK_IMPORTED_MODULE_2__.I.goto((0,_src_utilities_getUrl__WEBPACK_IMPORTED_MODULE_3__.getUrl)('https://pega870-web.tm.k-expert.com/prweb/app/default/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD'));
     await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementById({ id: 'txtUserID' }).set(`test.cafe1`);
-    await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementById({ id: 'txtPassword' }).set(`Rulesnov22!!`);
+    await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.elementById({ id: 'txtPassword' }).set(`Rulesdec22!`);
     await pega_model__WEBPACK_IMPORTED_MODULE_1__.pega.buttonById('sub').click();
     //     await I.resizeWindow(1920, 1080);
     //     // await I.maximizeWindow();
@@ -334,13 +334,40 @@ __webpack_require__.r(__webpack_exports__);
     //     await pega.radioButtonByPartialId("bf4dd451false").click("False");
     //     await pega.autocompletionFieldByDataTestId("202004070523280604f8b407b8-261b-410d-b6d3-4cd999cec8e9193").filterAndSelect("France")
     //     await pega.multiselectById("fafff1e2").selectValuesFromList(["Choice1","Choice3"]);
-    //     //await pega.buttonById("ModalButtonSubmit").click();
-    //     await pega.buttonById("ModalButtonCancel").click();
+    //     await pega.buttonById("ModalButtonSubmit").click();
+    //     //await pega.buttonById("ModalButtonCancel").click();
     // })
-    .Then('upload', async (_I, _runInfo) => {
+    // .Then('upload', async (_I, _runInfo) => {
+    //     await I.debugger()
+    //     await pega.buttonByDataTestId("2020040704574204654271").click();
+    //     await pega.elementById({id:"com.android.permissioncontroller:id/permission_allow_one_time_button"}).shouldBeVisible();
+    //     await pega.elementById({id:"icon"}).click();
+    //     await pega.elementByXpath(`//android.widget.ImageView[@content-desc="Shutter"]`).click();
+    //     await pega.elementById({id:"done_button"}).click();
+    //     await I.debugger()
+    // })
+    .Then('Add Book', async (_I, _runInfo) => {
     try {
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("2020040704574204654271").click();
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.handleConfirmDialog();
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
+        // await pega.autocompletionField('202004070615060327134211').selectResultFromExternalSource('.Books', 'Hamlet');
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.autocompletionField('202004070615060327134211').filterAndSelect('Hamlet');
+        //select("Gustav");
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("202004070615060328135781").click();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.checkboxByDataTestId("202004070615060484168703").check();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//*[@data-test-id="20200407061506048517139"]`).click();
+    }
+    catch (e) {
+        e.fromSpec = true;
+        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
+        throw e;
+    }
+})
+    .Then('Add Content', async (_I, _runInfo) => {
+    try {
+        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//*[@class="icon icon-openclose"]`).click();
+        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//a[@data-test-id="201904150733200578181206"]`).click();
         await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
     }
     catch (e) {
@@ -385,6 +412,16 @@ function getUrl(env) {
 
 /***/ }),
 
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ }),
+
 /***/ "pega-model":
 /*!*****************************!*\
   !*** external "pega-model" ***!
@@ -412,16 +449,6 @@ module.exports = require("test-maker");
 /***/ ((module) => {
 
 module.exports = require("fs");
-
-/***/ }),
-
-/***/ "path":
-/*!***********************!*\
-  !*** external "path" ***!
-  \***********************/
-/***/ ((module) => {
-
-module.exports = require("path");
 
 /***/ })
 

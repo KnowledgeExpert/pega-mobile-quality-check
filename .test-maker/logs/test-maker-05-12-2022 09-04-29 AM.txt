@@ -1,0 +1,128 @@
+[info] [2022-12-05T08:04:30.114Z]
+
+Starting Test Maker 7.5.3
+
+[info] [2022-12-05T08:04:30.147Z]
+Compiling Test Maker Config File: D:/pega-mobile-quality-check/test-maker.local.ts
+[info] [2022-12-05T08:04:31.815Z]
+Loading Test Maker System Modules
+[info] [2022-12-05T08:04:31.816Z]
+- Loading Test Maker Plugins
+[info] [2022-12-05T08:04:32.212Z]
+- Loading Test Maker Reporters:
+[info] [2022-12-05T08:04:32.212Z]
+- Loading Test Maker Adapters:
+[info] [2022-12-05T08:04:33.363Z]
+  - appium
+[info] [2022-12-05T08:04:33.364Z]
+    - Loading Client: android:chrome
+[info] [2022-12-05T08:04:33.388Z]
+
+Debugging is enabled for enabled
+[info] [2022-12-05T08:04:33.389Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-12-05T08:04:33.444Z]
+
+- Deleting Old Reporters Files
+[info] [2022-12-05T08:04:33.445Z]
+- Compiling Spec Files
+
+[2022-12-05T08:04:33.873Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/test-Mobile-Elements-spec.js 27 KiB [emitted] (name: ./src/specs/test-Mobile-Elements-spec) 1 related asset
+Entrypoint ./src/specs/test-Mobile-Elements-spec 155 KiB (166 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/test-Mobile-Elements-spec.js 27 KiB 2 auxiliary assets
+webpack compiled successfully
+[info] [2022-12-05T08:04:35.872Z]
+Starting Appium Server at: localhost:50746
+[2022-12-05T08:04:36.091Z]
+Task started On Monday 05-Dec-2022 At 09:04:36:090 GMT+01:00
+[2022-12-05T08:04:36.091Z]
+Running tests in the following Clients:
+- android:chrome
+
+[2022-12-05T08:05:20.619Z]
+Error: Failed to create session.
+An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20134ms.
+    at startWebDriverSession (D:\pega-mobile-quality-check\node_modules\webdriver\build\utils.js:73:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Function.newSession (D:\pega-mobile-quality-check\node_modules\webdriver\build\index.js:46:45)
+    at remote (D:\pega-mobile-quality-check\node_modules\webdriverio\build\index.js:77:22)
+    at _0xd69304.start (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\helpers\webdriver-remote.ts:15:27)
+    at _0x589569.baseClientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:98:13)
+    at _0x589569.clientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\appium\adapter.ts:178:16)
+    at _0x3aaa36.createClientInstance (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:588:40)
+    at _0x3aaa36.getClient (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:555:50)
+    at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:174:84
+    at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+[2022-12-05T08:05:20.622Z]
+TypeError: Cannot read properties of undefined (reading 'getContext')
+    at _0x1d106e.setup (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\controller.ts:74:77)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _0x589569.getApi (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:174:9)
+    at _0x589569.baseClientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:108:20)
+    at _0x589569.clientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\appium\adapter.ts:178:16)
+    at _0x3aaa36.createClientInstance (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:588:40)
+    at _0x3aaa36.getClient (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:555:50)
+    at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:174:84
+    at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+[error] [2022-12-05T08:05:20.625Z]
+TypeError: Cannot read properties of undefined (reading 'client')
+    at _0x55ff13.runFn (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:92:40)
+    at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+    at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+[info] [2022-12-05T08:05:20.626Z]
+See Log file for more Details...
+[2022-12-05T08:05:20.686Z]
+
+  ┌──────────────────────────────────────┬────────────────────────────────┬────────────────────────────────┬─────────────┬─────────────┐
+  │               Feature                │           Scenarios            │             Steps              │  Duration   │   Status    │
+  ├──────────────────────────────────────┼────────────────────────────────┼────────────────────────────────┼─────────────┼─────────────┤
+  │ Update restore configuration - Pega  │           Passed: 0            │           Passed: 0            │ 00:00:00.00 │  undefined  │
+  │ src/specs/test-Mobile-Elements-spec. │           Failed: 0            │           Failed: 0            │      0      │             │
+  │                  ts                  │           Skipped: 0           │           Skipped: 0           │             │             │
+  │                                      │          Undefined: 1          │         Undefined: 13          │             │             │
+  │                                      │                                │                                │             │             │
+  └──────────────────────────────────────┴────────────────────────────────┴────────────────────────────────┴─────────────┴─────────────┘
+[2022-12-05T08:05:20.686Z]
+
+
+[2022-12-05T08:05:20.687Z]
+Task finished On Monday 05-Dec-2022 At 09:05:20:686 GMT+01:00 in (44s 544ms)
+
+[2022-12-05T08:05:20.688Z]
+Task Status: ✔ Success
+
+Total Features         1
+  Passed Features      0 0.00%
+  Failed Features      0 0.00%
+  Skipped Features     0 0.00%
+  Undefined Features   1 100.00%
+
+[2022-12-05T08:05:20.689Z]
+Total Scenarios        1
+  Passed Scenarios     0 0.00%
+  Failed Scenarios     0 0.00%
+  Skipped Scenarios    0 0.00%
+  Undefined Scenarios  1 100.00%
+[2022-12-05T08:05:20.690Z]
+
+Total Steps            13
+  Passed Steps         0 0.00%
+  Failed Steps         0 0.00%
+  Skipped Steps        0 0.00%
+  Undefined Steps      13 100.00%
+[2022-12-05T08:05:20.691Z]
+
+Total Executed Actions 0
+  Controller Actions   0
+  Selector Actions     0
+  Assertion Actions    0
+
+[2022-12-05T08:05:20.692Z]
+Test Process Succeeded

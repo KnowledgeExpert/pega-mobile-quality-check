@@ -1,0 +1,132 @@
+[info] [2022-12-06T13:19:51.641Z]
+
+Starting Test Maker 7.5.3
+
+[info] [2022-12-06T13:19:51.655Z]
+Compiling Test Maker Config File: D:/pega-mobile-quality-check/test-maker.local.ts
+[info] [2022-12-06T13:19:53.407Z]
+Loading Test Maker System Modules
+[info] [2022-12-06T13:19:53.408Z]
+- Loading Test Maker Plugins
+[info] [2022-12-06T13:19:53.583Z]
+- Loading Test Maker Reporters:
+[info] [2022-12-06T13:19:53.583Z]
+- Loading Test Maker Adapters:
+[info] [2022-12-06T13:19:54.821Z]
+  - appium
+[info] [2022-12-06T13:19:54.822Z]
+    - Loading Client: android:chrome
+[info] [2022-12-06T13:19:54.847Z]
+
+Debugging is enabled for enabled
+[info] [2022-12-06T13:19:54.847Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-12-06T13:19:54.912Z]
+
+- Deleting Old Reporters Files
+[info] [2022-12-06T13:19:54.913Z]
+- Compiling Spec Files
+
+[2022-12-06T13:19:55.331Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/test-Mobile-Elements-spec.js 26.7 KiB [compared for emit] (name: ./src/specs/test-Mobile-Elements-spec) 1 related asset
+Entrypoint ./src/specs/test-Mobile-Elements-spec 155 KiB (165 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/test-Mobile-Elements-spec.js 26.7 KiB 2 auxiliary assets
+webpack compiled successfully
+[info] [2022-12-06T13:19:56.223Z]
+Starting Appium Server at: localhost:59208
+[2022-12-06T13:19:56.431Z]
+Task started On Tuesday 06-Dec-2022 At 14:19:56:431 GMT+01:00
+[2022-12-06T13:19:56.432Z]
+Running tests in the following Clients:
+- android:chrome
+
+[2022-12-06T13:21:57.244Z]
+Error: Failed to create session.
+Timeout awaiting 'request' for 60000ms when running "http://127.0.0.1:59208/session" with method "POST" and args "{"capabilities":{"alwaysMatch":{"platformName":"Android","browserName":"chrome","appium:nativeWebTap":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:newCommandTimeout":90,"appium:deviceName":"emulator-5556","appium:browserName":"chrome","appium:automationName":"UiAutomator2","appium:appiumLogs":"true","appium:noReset":true,"appium:maxInstances":1},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","browserName":"chrome","appium:nativeWebTap":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:newCommandTimeout":90,"appium:deviceName":"emulator-5556","appium:browserName":"chrome","appium:automationName":"UiAutomator2","appium:appiumLogs":"true","appium:noReset":true,"appium:maxInstances":1}}"
+    at startWebDriverSession (D:\pega-mobile-quality-check\node_modules\webdriver\build\utils.js:73:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:497:9)
+    at Function.newSession (D:\pega-mobile-quality-check\node_modules\webdriver\build\index.js:46:45)
+    at remote (D:\pega-mobile-quality-check\node_modules\webdriverio\build\index.js:77:22)
+    at _0xd69304.start (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\helpers\webdriver-remote.ts:15:27)
+    at _0x589569.baseClientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:98:13)
+    at _0x589569.clientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\appium\adapter.ts:178:16)
+    at _0x3aaa36.createClientInstance (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:588:40)
+    at _0x3aaa36.getClient (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:555:50)
+    at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:174:84
+    at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+[2022-12-06T13:21:57.247Z]
+TypeError: Cannot read properties of undefined (reading 'getContext')
+    at _0x1d106e.setup (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\controller.ts:74:77)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:497:9)
+    at _0x589569.getApi (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:174:9)
+    at _0x589569.baseClientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\webdriver\adapter.ts:108:20)
+    at _0x589569.clientStart (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\appium\adapter.ts:178:16)
+    at _0x3aaa36.createClientInstance (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:588:40)
+    at _0x3aaa36.getClient (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:555:50)
+    at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:174:84
+    at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+[error] [2022-12-06T13:21:57.250Z]
+TypeError: Cannot read properties of undefined (reading 'client')
+    at _0x55ff13.runFn (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:92:40)
+    at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+    at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+[info] [2022-12-06T13:21:57.250Z]
+See Log file for more Details...
+[2022-12-06T13:21:57.263Z]
+
+  ┌────────────────────────────────────┬───────────────────────────────┬───────────────────────────────┬─────────────┬─────────────┐
+  │              Feature               │           Scenarios           │             Steps             │  Duration   │   Status    │
+  ├────────────────────────────────────┼───────────────────────────────┼───────────────────────────────┼─────────────┼─────────────┤
+  │   Update restore configuration -   │           Passed: 0           │           Passed: 0           │ 00:00:00.00 │  undefined  │
+  │                Pega                │           Failed: 0           │           Failed: 0           │      0      │             │
+  │ src/specs/test-Mobile-Elements-spe │          Skipped: 0           │          Skipped: 0           │             │             │
+  │                c.ts                │         Undefined: 1          │         Undefined: 12         │             │             │
+  │                                    │                               │                               │             │             │
+  └────────────────────────────────────┴───────────────────────────────┴───────────────────────────────┴─────────────┴─────────────┘
+[2022-12-06T13:21:57.264Z]
+
+
+[2022-12-06T13:21:57.265Z]
+Task finished On Tuesday 06-Dec-2022 At 14:21:57:264 GMT+01:00 in (2m 821ms)
+
+[2022-12-06T13:21:57.266Z]
+Task Status: ✔ Success
+
+Total Features         1
+  Passed Features      0 0.00%
+  Failed Features      0 0.00%
+  Skipped Features     0 0.00%
+  Undefined Features   1 100.00%
+
+[2022-12-06T13:21:57.266Z]
+Total Scenarios        1
+  Passed Scenarios     0 0.00%
+  Failed Scenarios     0 0.00%
+  Skipped Scenarios    0 0.00%
+  Undefined Scenarios  1 100.00%
+[2022-12-06T13:21:57.267Z]
+
+Total Steps            12
+  Passed Steps         0 0.00%
+  Failed Steps         0 0.00%
+  Skipped Steps        0 0.00%
+  Undefined Steps      12 100.00%
+[2022-12-06T13:21:57.268Z]
+
+Total Executed Actions 0
+  Controller Actions   0
+  Selector Actions     0
+  Assertion Actions    0
+
+[2022-12-06T13:21:57.270Z]
+Test Process Succeeded

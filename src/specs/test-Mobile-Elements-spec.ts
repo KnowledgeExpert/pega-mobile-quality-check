@@ -75,21 +75,40 @@ Feature(`Update restore configuration - Pega`)
         await pega.buttonByDataTestId("HoverButton").hoverAndClick();
 
     })
-    .Then('New Window Fill Check', async (_I, _runInfo) => {
+    // .Then('New Window Fill Check', async (_I, _runInfo) => {
 
-        await pega.buttonByDataTestId("2020040704574204653718").click();
-        await pega.textInputByDataTestId("202004070507140328a681364c-c680-4f4f-ad94-b3c67b24de71782").paste("test")
-        await pega.textInputByDataTestId("202004070523280603b6effa15-90b9-4285-b1a5-eb93e69b70c3180").paste("test")
-        await pega.radioButtonByPartialId("bf4dd451false").click("False");
-        await pega.autocompletionFieldByDataTestId("202004070523280604f8b407b8-261b-410d-b6d3-4cd999cec8e9193").filterAndSelect("France")
+    //     await pega.buttonByDataTestId("2020040704574204653718").click();
+    //     await pega.textInputByDataTestId("202004070507140328a681364c-c680-4f4f-ad94-b3c67b24de71782").paste("test")
+    //     await pega.textInputByDataTestId("202004070523280603b6effa15-90b9-4285-b1a5-eb93e69b70c3180").paste("test")
+    //     await pega.radioButtonByPartialId("bf4dd451false").click("False");
+    //     await pega.autocompletionFieldByDataTestId("202004070523280604f8b407b8-261b-410d-b6d3-4cd999cec8e9193").filterAndSelect("France")
 
-        await pega.multiselectById("fafff1e2").selectValuesFromList(["Choice1","Choice3"]);
+    //     await pega.multiselectById("fafff1e2").selectValuesFromList(["Choice1","Choice3"]);
 
-        await pega.buttonById("ModalButtonSubmit").click();
-        //await pega.buttonById("ModalButtonCancel").click();
-    })
-    .Then('upload', async (_I, _runInfo) => {
+    //     await pega.buttonById("ModalButtonSubmit").click();
+    //     //await pega.buttonById("ModalButtonCancel").click();
+    // })
+    // .Then('upload', async (_I, _runInfo) => {
+    //     await I.debugger()
+    //     await pega.buttonByDataTestId("2020040704574204654271").click();
+    //     await pega.elementById({id:"com.android.permissioncontroller:id/permission_allow_one_time_button"}).shouldBeVisible();
+    //     await pega.elementById({id:"icon"}).click();
+    //     await pega.elementByXpath(`//android.widget.ImageView[@content-desc="Shutter"]`).click();
+    //     await pega.elementById({id:"done_button"}).click();
+    //     await I.debugger()
+    // })
+    .Then('Add Book', async (_I, _runInfo) => {
+       // await pega.autocompletionField('202004070615060327134211').selectResultFromExternalSource('.Books', 'Hamlet');
+        await pega.autocompletionField('202004070615060327134211').filterAndSelect('Hamlet');
 
-        await pega.buttonByDataTestId("2020040704574204654271").click();
+        await pega.buttonByDataTestId("202004070615060328135781").click();
+        await pega.checkboxByDataTestId("202004070615060484168703").check();
+        await pega.elementByXpath(`//*[@data-test-id="20200407061506048517139"]`).click();
+    }) 
+    .Then('Add Content', async (_I, _runInfo) => {
+      
+        await pega.elementByXpath(`//*[@class="icon icon-openclose"]`).click()
+        await pega.elementByXpath(`//a[@data-test-id="201904150733200578181206"]`).click()
         await I.debugger()
-    })
+
+    }) 

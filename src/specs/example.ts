@@ -36,6 +36,5 @@ Feature(`Example Feature`)
         await pega.elementById({id:'input_comp-kzxooouq'}).set("Test")
         await pega.textAreaById(`textarea_comp-kzxoooux`).set("test")
         await pega.elementByXpath(`//*[text()="Send"]`).click()
-        await I.debugger()
    
         })
