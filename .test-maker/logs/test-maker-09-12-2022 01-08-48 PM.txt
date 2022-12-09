@@ -1,0 +1,2343 @@
+[info] [2022-12-09T12:08:48.893Z]
+
+Starting Test Maker 7.5.3
+
+[info] [2022-12-09T12:08:48.909Z]
+Compiling Test Maker Config File: D:/pega-mobile-quality-check/test-maker.local.ts
+[info] [2022-12-09T12:08:49.745Z]
+Loading Test Maker System Modules
+[info] [2022-12-09T12:08:49.745Z]
+- Loading Test Maker Plugins
+[info] [2022-12-09T12:08:49.922Z]
+- Loading Test Maker Reporters:
+[info] [2022-12-09T12:08:49.922Z]
+- Loading Test Maker Adapters:
+[info] [2022-12-09T12:08:50.646Z]
+  - appium
+[info] [2022-12-09T12:08:50.647Z]
+    - Loading Client: android:chrome
+[info] [2022-12-09T12:08:50.678Z]
+
+Debugging is enabled for enabled
+[info] [2022-12-09T12:08:50.679Z]
+Test Maker Debugger is Active
+You can use the following keys in the terminal:
+'d' - activate/deactivate debugger.
+'f' - to continue the process.
+
+[info] [2022-12-09T12:08:50.729Z]
+
+- Deleting Old Reporters Files
+[info] [2022-12-09T12:08:50.744Z]
+- Compiling Spec Files
+
+[2022-12-09T12:08:51.336Z]
+asset vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB [compared for emit] (id hint: vendors) 1 related asset
+asset ./src/specs/test-Mobile-Elements-spec.js 29.3 KiB [emitted] (name: ./src/specs/test-Mobile-Elements-spec) 1 related asset
+Entrypoint ./src/specs/test-Mobile-Elements-spec 158 KiB (168 KiB) = vendors-node_modules_test-maker_node_modules_source-map-support_register_js.js 128 KiB ./src/specs/test-Mobile-Elements-spec.js 29.3 KiB 2 auxiliary assets
+webpack compiled successfully
+[info] [2022-12-09T12:08:52.369Z]
+Starting Appium Server at: localhost:54754
+[2022-12-09T12:08:52.613Z]
+Task started On Friday 09-Dec-2022 At 13:08:52:612 GMT+01:00
+[2022-12-09T12:08:52.613Z]
+Running tests in the following Clients:
+- android:chrome
+
+[2022-12-09T12:09:00.535Z]
+▶ Feature : Start ------------------
+[2022-12-09T12:09:00.536Z]
+ Name      : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:00:532 GMT+01:00
+
+[2022-12-09T12:09:00.538Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:00.539Z]
+▶ Before Feature : Start -------------------------
+[2022-12-09T12:09:00.541Z]
+ Feature Name: Update restore configuration - Pega
+ Retries     : 0
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ File        : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time  : Friday 09-Dec-2022 At 13:09:00:539 GMT+01:00
+
+[2022-12-09T12:09:00.542Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:00.545Z]
+▶ Controller Action : Start ----------------------------
+[2022-12-09T12:09:00.779Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web.tm.k-expert.com/prweb/app/default/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:00:543 GMT+01:00
+ File        : D:/pega-mobile-quality-check/helpers/pegaLoginTestApp.ts
+ Source      : 
+> 7 |     await I.goto(getUrl('https://pega870-web.tm.k-expert.com/prweb/app/default/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD'));
+    |           ^
+[2022-12-09T12:09:00.780Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.067Z]
+✔ Controller Action : Done ---------------------------
+[2022-12-09T12:09:03.073Z]
+ Type        : Method
+ Name        : I.goto("https://pega870-web.tm.k-expert.com/prweb/app/default/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:00:543 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:03:066 GMT+01:00
+ Duration    : 00:00:02.523
+ File        : D:/pega-mobile-quality-check/helpers/pegaLoginTestApp.ts
+ Source      : 
+> 7 |     await I.goto(getUrl('https://pega870-web.tm.k-expert.com/prweb/app/default/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD'));
+    |           ^
+[2022-12-09T12:09:03.074Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.119Z]
+▶ Assertion  : Start ---------------------
+[2022-12-09T12:09:03.121Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              })()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:03:118 GMT+01:00
+
+[2022-12-09T12:09:03.121Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.124Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:03.126Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:123 GMT+01:00
+
+[2022-12-09T12:09:03.127Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.129Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:03.202Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:128 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:03.203Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.266Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:03.323Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : nth("0")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:266 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:03.324Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.326Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:03.330Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:123 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:03:326 GMT+01:00
+ Duration    : 00:00:00.203
+
+[2022-12-09T12:09:03.331Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.331Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:03.334Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:123 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:03:326 GMT+01:00
+ Duration    : 00:00:00.203
+
+[2022-12-09T12:09:03.335Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.336Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:03.395Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:123 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:03.396Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.422Z]
+✔ Selector Action : Done -------------------------
+[2022-12-09T12:09:03.594Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:123 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:03:421 GMT+01:00
+ Duration    : 00:00:00.298
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:03.595Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.596Z]
+▶ Assertion Action : Start ---------------------------
+[2022-12-09T12:09:03.641Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:03:596 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2022-12-09T12:09:03.642Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.643Z]
+✔ Assertion Action : Done --------------------------
+[2022-12-09T12:09:03.678Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:03:596 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:03:643 GMT+01:00
+ Duration    : 00:00:00.047
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2022-12-09T12:09:03.679Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.679Z]
+✔ Assertion  : Done --------------------
+[2022-12-09T12:09:03.681Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              })()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:03:118 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:03:643 GMT+01:00
+ Duration    : 00:00:00.525
+
+[2022-12-09T12:09:03.682Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.798Z]
+▶ Controller Action : Start ----------------------------
+[2022-12-09T12:09:03.834Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@id="txtUserID"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:03:683 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-12-09T12:09:03.835Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.837Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:03.838Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:836 GMT+01:00
+
+[2022-12-09T12:09:03.839Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.840Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:03.848Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:839 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-12-09T12:09:03.849Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.886Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:03.887Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:836 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:03:885 GMT+01:00
+ Duration    : 00:00:00.049
+
+[2022-12-09T12:09:03.888Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:03.888Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:03.890Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:03:836 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:03:885 GMT+01:00
+ Duration    : 00:00:00.049
+
+[2022-12-09T12:09:03.891Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:04.286Z]
+✔ Controller Action : Done ---------------------------
+[2022-12-09T12:09:04.335Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@id="txtUserID"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:03:683 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:04:285 GMT+01:00
+ Duration    : 00:00:00.602
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-12-09T12:09:04.336Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:04.476Z]
+▶ Controller Action : Start ----------------------------
+[2022-12-09T12:09:04.512Z]
+ Type        : Method
+ Name        : I.fillField(Selector("//*[@id="txtUserID"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}),"test.cafe1")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:04:337 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 85 |         await I.fillField(Selector(element, this.actualOptions).filterVisible(), value);
+     |               ^
+[2022-12-09T12:09:04.513Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:04.514Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:04.516Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:04:513 GMT+01:00
+
+[2022-12-09T12:09:04.517Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:04.517Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:04.524Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:04:517 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-12-09T12:09:04.525Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:04.620Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:04.622Z]
+ Init        : Selector("//*[@id="txtUserID"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:04:513 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:04:620 GMT+01:00
+ Duration    : 00:00:00.107
+
+[2022-12-09T12:09:04.623Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.163Z]
+✔ Controller Action : Done ---------------------------
+[2022-12-09T12:09:05.201Z]
+ Type        : Method
+ Name        : I.fillField(Selector("//*[@id="txtUserID"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}),"test.cafe1")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:04:337 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:05:163 GMT+01:00
+ Duration    : 00:00:00.826
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 85 |         await I.fillField(Selector(element, this.actualOptions).filterVisible(), value);
+     |               ^
+[2022-12-09T12:09:05.202Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.204Z]
+▶ Assertion  : Start ---------------------
+[2022-12-09T12:09:05.206Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              })()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:05:204 GMT+01:00
+
+[2022-12-09T12:09:05.207Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.208Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:05.210Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:207 GMT+01:00
+
+[2022-12-09T12:09:05.211Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.212Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:05.254Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:211 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:05.254Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.300Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:05.334Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : nth("0")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:300 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:05.335Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.335Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:05.337Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:207 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:05:335 GMT+01:00
+ Duration    : 00:00:00.128
+
+[2022-12-09T12:09:05.337Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.337Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:05.340Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:207 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:05:335 GMT+01:00
+ Duration    : 00:00:00.128
+
+[2022-12-09T12:09:05.342Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.342Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:05.391Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:207 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:05.392Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.408Z]
+✔ Selector Action : Done -------------------------
+[2022-12-09T12:09:05.443Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:207 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:05:408 GMT+01:00
+ Duration    : 00:00:00.201
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:05.444Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.444Z]
+▶ Assertion Action : Start ---------------------------
+[2022-12-09T12:09:05.481Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:05:444 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2022-12-09T12:09:05.482Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.483Z]
+✔ Assertion Action : Done --------------------------
+[2022-12-09T12:09:05.516Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:05:444 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:05:482 GMT+01:00
+ Duration    : 00:00:00.038
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2022-12-09T12:09:05.516Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.516Z]
+✔ Assertion  : Done --------------------
+[2022-12-09T12:09:05.518Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              })()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:05:204 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:05:482 GMT+01:00
+ Duration    : 00:00:00.278
+
+[2022-12-09T12:09:05.519Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.638Z]
+▶ Controller Action : Start ----------------------------
+[2022-12-09T12:09:05.671Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@id="txtPassword"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:05:519 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-12-09T12:09:05.672Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.673Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:05.675Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:673 GMT+01:00
+
+[2022-12-09T12:09:05.676Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.676Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:05.682Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:676 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-12-09T12:09:05.683Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.718Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:05.720Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:673 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:05:718 GMT+01:00
+ Duration    : 00:00:00.045
+
+[2022-12-09T12:09:05.721Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:05.721Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:05.722Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:05:673 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:05:718 GMT+01:00
+ Duration    : 00:00:00.045
+
+[2022-12-09T12:09:05.723Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:06.206Z]
+✔ Controller Action : Done ---------------------------
+[2022-12-09T12:09:06.252Z]
+ Type        : Method
+ Name        : I.click(Selector("//*[@id="txtPassword"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:05:519 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:06:206 GMT+01:00
+ Duration    : 00:00:00.687
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-12-09T12:09:06.253Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:06.378Z]
+▶ Controller Action : Start ----------------------------
+[2022-12-09T12:09:06.412Z]
+ Type        : Method
+ Name        : I.fillField(Selector("//*[@id="txtPassword"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}),"Rulesdec22!")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:06:254 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 85 |         await I.fillField(Selector(element, this.actualOptions).filterVisible(), value);
+     |               ^
+[2022-12-09T12:09:06.412Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:06.413Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:06.415Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:06:413 GMT+01:00
+
+[2022-12-09T12:09:06.416Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:06.416Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:06.421Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:06:416 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-12-09T12:09:06.422Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:06.502Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:06.504Z]
+ Init        : Selector("//*[@id="txtPassword"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:06:413 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:06:502 GMT+01:00
+ Duration    : 00:00:00.089
+
+[2022-12-09T12:09:06.504Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.074Z]
+✔ Controller Action : Done ---------------------------
+[2022-12-09T12:09:07.109Z]
+ Type        : Method
+ Name        : I.fillField(Selector("//*[@id="txtPassword"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}),"Rulesdec22!")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:06:254 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:07:074 GMT+01:00
+ Duration    : 00:00:00.820
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 85 |         await I.fillField(Selector(element, this.actualOptions).filterVisible(), value);
+     |               ^
+[2022-12-09T12:09:07.109Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.111Z]
+▶ Assertion  : Start ---------------------
+[2022-12-09T12:09:07.113Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              })()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:07:111 GMT+01:00
+
+[2022-12-09T12:09:07.114Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.114Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:07.116Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:114 GMT+01:00
+
+[2022-12-09T12:09:07.117Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.117Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:07.153Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:117 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:07.154Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.198Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:07.234Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : nth("0")
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:198 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:07.235Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.235Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:07.237Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:114 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:07:235 GMT+01:00
+ Duration    : 00:00:00.121
+
+[2022-12-09T12:09:07.237Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.238Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:07.240Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:114 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:07:235 GMT+01:00
+ Duration    : 00:00:00.121
+
+[2022-12-09T12:09:07.241Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.242Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:07.288Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:114 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:07.289Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.304Z]
+✔ Selector Action : Done -------------------------
+[2022-12-09T12:09:07.339Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Property
+ Name        : visible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:114 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:07:304 GMT+01:00
+ Duration    : 00:00:00.190
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 224 |                 .filterVisible().nth(this.actualOptions.index).visible,
+      |                                                               ^
+[2022-12-09T12:09:07.340Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.340Z]
+▶ Assertion Action : Start ---------------------------
+[2022-12-09T12:09:07.375Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:07:340 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2022-12-09T12:09:07.377Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.378Z]
+✔ Assertion Action : Done --------------------------
+[2022-12-09T12:09:07.412Z]
+ Action      : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              }).toBeOk()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:07:340 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:07:377 GMT+01:00
+ Duration    : 00:00:00.037
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 229 |             }).toBeOk();
+      |                ^
+[2022-12-09T12:09:07.412Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.413Z]
+✔ Assertion  : Done --------------------
+[2022-12-09T12:09:07.414Z]
+ Init        : Expect({ /* Promise */ }, {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0
+              })()
+ Retries     : 0
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:07:111 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:07:377 GMT+01:00
+ Duration    : 00:00:00.266
+
+[2022-12-09T12:09:07.415Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.535Z]
+▶ Controller Action : Start ----------------------------
+[2022-12-09T12:09:07.568Z]
+ Type        : Method
+ Name        : I.click(Selector("//button[@id="sub"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:07:415 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-12-09T12:09:07.568Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.569Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:07.571Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:569 GMT+01:00
+
+[2022-12-09T12:09:07.572Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.574Z]
+▶ Selector Action : Start --------------------------
+[2022-12-09T12:09:07.579Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Type        : Method
+ Name        : filterVisible
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:573 GMT+01:00
+ File        : node:internal/process/task_queues
+ Source      : 
+> 1 | Could not find source file: node:internal/process/task_queues
+    | ^
+[2022-12-09T12:09:07.580Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.616Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:07.617Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:569 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:07:616 GMT+01:00
+ Duration    : 00:00:00.047
+
+[2022-12-09T12:09:07.618Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:07.618Z]
+✔ Selector  : Done -------------------
+[2022-12-09T12:09:07.620Z]
+ Init        : Selector("//button[@id="sub"]")
+ options     : {
+                  timeout: 0,
+                  interval: 50,
+                  retries: 0,
+                  assertionTimeout: 0,
+                  index: 0,
+                  isCaseSensitive: true
+              }
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:07:569 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:07:616 GMT+01:00
+ Duration    : 00:00:00.047
+
+[2022-12-09T12:09:07.621Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[error] [2022-12-09T12:09:07.700Z]
+(node:12324) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 shutdown listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2022-12-09T12:09:08.882Z]
+✔ Controller Action : Done ---------------------------
+[2022-12-09T12:09:08.938Z]
+ Type        : Method
+ Name        : I.click(Selector("//button[@id="sub"]",{
+    timeout: 0,
+    interval: 50,
+    retries: 0,
+    assertionTimeout: 0,
+    index: 0,
+    isCaseSensitive: true
+}))
+ Phase       : Before Feature
+ Feature     : Update restore configuration - Pega
+ Scenario    : 
+ Step        : 
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:07:415 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:08:882 GMT+01:00
+ Duration    : 00:00:01.467
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/controls/controlsCommonActions.ts
+ Source      : 
+> 29 |         await I.click(Selector(element, this.actualOptions).filterVisible());
+     |               ^
+[2022-12-09T12:09:08.939Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:08.941Z]
+✔ Before Feature : Done ------------------------
+[2022-12-09T12:09:08.943Z]
+ Feature Name: Update restore configuration - Pega
+ Retries     : 0
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ File        : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time  : Friday 09-Dec-2022 At 13:09:00:539 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:08:939 GMT+01:00
+ Duration    : 00:00:08.400
+[2022-12-09T12:09:08.945Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:08.948Z]
+▶ Scenario : Start -------------------
+[2022-12-09T12:09:08.949Z]
+ Name      : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:08:945 GMT+01:00
+
+[2022-12-09T12:09:08.950Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:08.954Z]
+▶ Given : Start ----------------
+[2022-12-09T12:09:08.955Z]
+ Name      : TestCafe Case
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:08:952 GMT+01:00
+
+[2022-12-09T12:09:08.957Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:10.402Z]
+▶ Controller Action : Start ----------------------------
+[2022-12-09T12:09:10.414Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Update restore configuration - Pega
+ Scenario    : update-restore
+ Step        : TestCafe Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:10:205 GMT+01:00
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2022-12-09T12:09:10.415Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:10.620Z]
+✔ Controller Action : Done ---------------------------
+[2022-12-09T12:09:10.627Z]
+ Type        : Method
+ Name        : I.switchToMainFrame()
+ Phase       : Step
+ Feature     : Update restore configuration - Pega
+ Scenario    : update-restore
+ Step        : TestCafe Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:10:205 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:10:620 GMT+01:00
+ Duration    : 00:00:00.415
+ File        : D:/pega-mobile-quality-check/node_modules/pega-model/src/widgets/frame.ts
+ Source      : 
+> 68 |         await I.switchToMainFrame();
+     |               ^
+[2022-12-09T12:09:10.628Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:11.009Z]
+▶ Controller Action : Start ----------------------------
+[2022-12-09T12:09:11.014Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-more-alt"]")
+ Phase       : Step
+ Feature     : Update restore configuration - Pega
+ Scenario    : update-restore
+ Step        : TestCafe Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:10:628 GMT+01:00
+ File        : D:/pega-mobile-quality-check/src/model/case.ts
+ Source      : 
+> 8 |         await I.click(`//*[@class="menu-item-icon-imageclass pi pi-more-alt"]`);   
+    |               ^
+[2022-12-09T12:09:11.015Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:11.019Z]
+▶ Selector  : Start --------------------
+[2022-12-09T12:09:11.021Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-more-alt"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Update restore configuration - Pega
+ Scenario    : update-restore
+ Step        : TestCafe Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:11:017 GMT+01:00
+
+[2022-12-09T12:09:11.022Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:24.967Z]
+ⓧ Selector  : Done -------------------
+[2022-12-09T12:09:24.969Z]
+ Init        : Selector("//*[@class="menu-item-icon-imageclass pi pi-more-alt"]")
+ options     : {
+                  timeout: 10000,
+                  retries: "INFINITELY"
+              }
+ Phase       : Step
+ Feature     : Update restore configuration - Pega
+ Scenario    : update-restore
+ Step        : TestCafe Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ StartTime   : Friday 09-Dec-2022 At 13:09:11:017 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:24:967 GMT+01:00
+ Duration    : 00:00:13.950
+
+[2022-12-09T12:09:24.970Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:25.077Z]
+ⓧ Controller Action : Done ---------------------------
+[2022-12-09T12:09:25.081Z]
+ Type        : Method
+ Name        : I.click("//*[@class="menu-item-icon-imageclass pi pi-more-alt"]")
+ Phase       : Step
+ Feature     : Update restore configuration - Pega
+ Scenario    : update-restore
+ Step        : TestCafe Case
+ Sub Step    : 
+ Frame       : Main Frame
+ Adapter     : appium
+ Client      : Chrome 91.0.4472.114 / Android 12
+ in isAppBusy: false
+ Start Time  : Friday 09-Dec-2022 At 13:09:10:628 GMT+01:00
+ End Time    : Friday 09-Dec-2022 At 13:09:25:077 GMT+01:00
+ Duration    : 00:00:14.449
+ File        : D:/pega-mobile-quality-check/src/model/case.ts
+ Source      : 
+> 8 |         await I.click(`//*[@class="menu-item-icon-imageclass pi pi-more-alt"]`);   
+    |               ^
+[2022-12-09T12:09:25.082Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.559Z]
+ⓧ Given : Done ---------------
+[2022-12-09T12:09:26.560Z]
+ Name      : TestCafe Case
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:08:952 GMT+01:00
+ End Time  : Friday 09-Dec-2022 At 13:09:26:558 GMT+01:00
+ Duration  : 00:00:17.605
+[2022-12-09T12:09:26.560Z]
+
+ -----Error Details -----
+[2022-12-09T12:09:26.566Z]
+   Message     : All retries failed after 10000ms 
+                    Last Condition Error: 
+                    Could not obtain information about the Selector because the specified selector does not match any node in the DOM tree. Make sure the Selector exists or the operation is performed in the correct Frame for Selector('//*[@class="menu-item-icon-imageclass pi pi-more-alt"]',{
+                    timeout: 10000,
+                    retries: "INFINITELY"
+                })
+   Code        : 2020
+   Type        : Error
+   Node        : v16.13.0
+   Phase       : Step
+   Time        : Friday 09-Dec-2022 At 13:09:25:082 GMT+01:00
+   Adapter     : appium
+   Client      : Chrome 91.0.4472.114 / Android 12
+   Feature File: D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+   Error Source: 
+  
+  at D:/pega-mobile-quality-check/src/model/case.ts
+  
+     6 |         //await I.resizeWindow(1600, 900);
+     7 | 
+  >  8 |         await I.click(`//*[@class="menu-item-icon-imageclass pi pi-more-alt"]`);   
+       |               ^
+     9 |          await I.click(`//*[@class="menu-item-icon-imageclass pi pi-plus"]`);   
+    10 | 
+  
+  at D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+  
+    16 |     .Given('TestCafe Case', async (_I, _runInfo) => {
+    17 |         await pega.frame.switchToDefault();
+  > 18 |         await app.case.createCaseWithTitle("TestCafe");
+       |               ^
+    19 |     })
+    20 |     .Then('Radio Button Check', async (_I, _runInfo) => {
+  
+  
+   Stack Trace : 
+  
+      at _0x4d5b22 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:85:37)
+      at _0xac1548 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:264:24)
+      at _0x5ce380._0x10373b.value (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\test-api\controller\controller-action.ts:422:17)
+      at Case.createCaseWithTitle (D:\pega-mobile-quality-check\src\model\case.ts:8:15)
+      at _0x3b121c.fn (D:\pega-mobile-quality-check\src\specs\test-Mobile-Elements-spec.ts:18:15)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at phaseFn (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\step-fn.ts:113:17)
+      at _0x7fce18.run (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\phase-manager.ts:112:17)
+      at _0x3b121c.run (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\step-fn.ts:109:9)
+      at _0x335e7c.runSteps (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\scenario-fn.ts:179:13)
+      at _0x335e7c.run (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\scenario-fn.ts:131:41)
+      at _0x55ff13.runScenarios (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:244:13)
+      at _0x55ff13.run (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:188:41)
+      at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:141:21
+      at _0x55ff13.runFn (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\gherkin\functions\feature-fn.ts:137:13)
+      at D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\src\adapters\adapter-proxy.ts:183:49
+      at _0x22dd14 (D:\pega-mobile-quality-check\node_modules\test-maker\dist\test-maker-source:\node_modules\.pnpm\p-queue@6.6.2\node_modules\p-queue\dist\index.js:163:1)
+  
+  
+[2022-12-09T12:09:26.566Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.567Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.568Z]
+ Name      : Radio Button Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:567 GMT+01:00
+
+[2022-12-09T12:09:26.568Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.569Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.570Z]
+ Name      : Text Area Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:569 GMT+01:00
+
+[2022-12-09T12:09:26.571Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.572Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.573Z]
+ Name      : Drop Down Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:571 GMT+01:00
+
+[2022-12-09T12:09:26.573Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.574Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.575Z]
+ Name      : Slider Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:574 GMT+01:00
+
+[2022-12-09T12:09:26.576Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.578Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.580Z]
+ Name      : Radio button Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:577 GMT+01:00
+
+[2022-12-09T12:09:26.581Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.583Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.584Z]
+ Name      : Textarea Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:582 GMT+01:00
+
+[2022-12-09T12:09:26.585Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.586Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.587Z]
+ Name      : Button Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:586 GMT+01:00
+
+[2022-12-09T12:09:26.588Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.589Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.590Z]
+ Name      : Right Click Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:588 GMT+01:00
+
+[2022-12-09T12:09:26.591Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.592Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.593Z]
+ Name      : Duble Click Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:591 GMT+01:00
+
+[2022-12-09T12:09:26.594Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.595Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.596Z]
+ Name      : Hover button Check
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:595 GMT+01:00
+
+[2022-12-09T12:09:26.597Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.599Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.600Z]
+ Name      : Add Book
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:598 GMT+01:00
+
+[2022-12-09T12:09:26.601Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.603Z]
+▶ Then : Skipped -----------------
+[2022-12-09T12:09:26.604Z]
+ Name      : Add Content
+ Scenario  : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:26:602 GMT+01:00
+
+[2022-12-09T12:09:26.604Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.606Z]
+ⓧ Scenario : Done ------------------
+[2022-12-09T12:09:26.608Z]
+ Name      : update-restore
+ Feature   : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:08:945 GMT+01:00
+ End Time  : Friday 09-Dec-2022 At 13:09:26:605 GMT+01:00
+ Duration  : 00:00:17.659
+[2022-12-09T12:09:26.608Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.609Z]
+ⓧ Feature : Done -----------------
+[2022-12-09T12:09:26.610Z]
+ Name      : Update restore configuration - Pega
+ Retries   : 0
+ Adapter   : appium
+ Client    : Chrome 91.0.4472.114 / Android 12
+ File      : D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts
+ Start Time: Friday 09-Dec-2022 At 13:09:00:532 GMT+01:00
+ End Time  : Friday 09-Dec-2022 At 13:09:26:609 GMT+01:00
+ Duration  : 00:00:26.076
+[2022-12-09T12:09:26.611Z]
+--------------------------------------------------------------------------------------------------------------------------------
+
+[2022-12-09T12:09:26.611Z]
+▶ Finished 1 of 1 Implemented Features 
+[2022-12-09T12:09:26.611Z]
+
+
+[2022-12-09T12:09:27.071Z]
+
+  ┌──────────────────────────────────┬─────────────────────────────┬─────────────────────────────┬────────────┬────────────┐
+  │             Feature              │          Scenarios          │            Steps            │  Duration  │   Status   │
+  ├──────────────────────────────────┼─────────────────────────────┼─────────────────────────────┼────────────┼────────────┤
+  │  Update restore configuration -  │          Passed: 0          │          Passed: 0          │ 00:00:26.0 │   failed   │
+  │               Pega               │          Failed: 1          │          Failed: 1          │     77     │            │
+  │ src/specs/test-Mobile-Elements-s │         Skipped: 0          │         Skipped: 12         │            │            │
+  │              pec.ts              │        Undefined: 0         │        Undefined: 0         │            │            │
+  │                                  │                             │                             │            │            │
+  └──────────────────────────────────┴─────────────────────────────┴─────────────────────────────┴────────────┴────────────┘
