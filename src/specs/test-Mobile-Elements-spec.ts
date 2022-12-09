@@ -88,24 +88,23 @@ Feature(`Update restore configuration - Pega`)
     //     await pega.buttonById("ModalButtonSubmit").click();
     //     //await pega.buttonById("ModalButtonCancel").click();
     // })
-    .Then('upload', async (_I, _runInfo) => {
-        await I.debugger()
-        await pega.buttonByDataTestId("2020040704574204654271").click();
-    await I.wait(1000)
-    const client = await I.getClientInfo()
-        if (client.os.name === `Android`) {
-            await I.switchContext(`NATIVE_APP`)
-            try {
-                await I.click(Selector(`[id="com.android.permissioncontroller:id/permission_allow_one_time_button"]`,{timeout:3000}))
-                        await pega.elementByXpath(`/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.TabHost/android.widget.LinearLayout/android.widget.FrameLayout/com.android.internal.widget.ViewPager/android.widget.RelativeLayout/com.android.internal.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.ImageView`).click()
-                        await pega.elementByXpath(`//android.widget.ImageView[@content-desc="Shutter"]`).click()
-                        await pega.elementByXpath(`//android.widget.ImageButton[@content-desc="Done"]`).click()
-            } catch (e) { }
-            await I.switchContext(`CHROMIUM`)
-        }  
+    // .Then('upload', async (_I, _runInfo) => {
+    //     await pega.buttonByDataTestId("2020040704574204654271").click();
+    // await I.wait(1000)
+    // const client = await I.getClientInfo()
+    //     if (client.os.name === `Android`) {
+    //         await I.switchContext(`NATIVE_APP`)
+    //         try {
+    //             await I.click(Selector(`[id="com.android.permissioncontroller:id/permission_allow_one_time_button"]`,{timeout:30000}))
+    //             await pega.elementByXpath(`/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.TabHost/android.widget.LinearLayout/android.widget.FrameLayout/com.android.internal.widget.ViewPager/android.widget.RelativeLayout/com.android.internal.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.ImageView`).click()
+    //             await pega.elementByXpath(`//android.widget.ImageView[@content-desc="Shutter"]`).click()
+    //             await pega.elementByXpath(`//android.widget.ImageButton[@content-desc="Done"]`).click()
+    //         } catch (e) { }
+    //         await I.switchContext(`CHROMIUM`)
+    //     }  
 
        
-    })
+    // })
     .Then('Add Book', async (_I, _runInfo) => {
         await I.wait(1000)
 
@@ -133,8 +132,9 @@ Feature(`Update restore configuration - Pega`)
                     await I.switchContext(`CHROMIUM`)
                 }  
 
-       
-                await pega.buttonByDataTestId("2014121801251706289770").click()
+                await I.debugger()
+
+                //await pega.buttonByDataTestId("2014121801251706289770").click()
 
 
     }) 

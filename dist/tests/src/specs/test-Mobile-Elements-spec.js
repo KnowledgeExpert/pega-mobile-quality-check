@@ -337,30 +337,21 @@ __webpack_require__.r(__webpack_exports__);
     //     await pega.buttonById("ModalButtonSubmit").click();
     //     //await pega.buttonById("ModalButtonCancel").click();
     // })
-    .Then('upload', async (_I, _runInfo) => {
-    try {
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I["debugger"]();
-        await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.buttonByDataTestId("2020040704574204654271").click();
-        await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.wait(1000);
-        const client = await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.getClientInfo();
-        if (client.os.name === `Android`) {
-            await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.switchContext(`NATIVE_APP`);
-            try {
-                await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.click((0,test_maker__WEBPACK_IMPORTED_MODULE_1__.Selector)(`[id="com.android.permissioncontroller:id/permission_allow_one_time_button"]`, { timeout: 3000 }));
-                await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.TabHost/android.widget.LinearLayout/android.widget.FrameLayout/com.android.internal.widget.ViewPager/android.widget.RelativeLayout/com.android.internal.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.ImageView`).click();
-                await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//android.widget.ImageView[@content-desc="Shutter"]`).click();
-                await pega_model__WEBPACK_IMPORTED_MODULE_2__.pega.elementByXpath(`//android.widget.ImageButton[@content-desc="Done"]`).click();
-            }
-            catch (e) { }
-            await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.switchContext(`CHROMIUM`);
-        }
-    }
-    catch (e) {
-        e.fromSpec = true;
-        e.filePath = `D:/pega-mobile-quality-check/src/specs/test-Mobile-Elements-spec.ts`;
-        throw e;
-    }
-})
+    // .Then('upload', async (_I, _runInfo) => {
+    //     await pega.buttonByDataTestId("2020040704574204654271").click();
+    // await I.wait(1000)
+    // const client = await I.getClientInfo()
+    //     if (client.os.name === `Android`) {
+    //         await I.switchContext(`NATIVE_APP`)
+    //         try {
+    //             await I.click(Selector(`[id="com.android.permissioncontroller:id/permission_allow_one_time_button"]`,{timeout:30000}))
+    //             await pega.elementByXpath(`/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.TabHost/android.widget.LinearLayout/android.widget.FrameLayout/com.android.internal.widget.ViewPager/android.widget.RelativeLayout/com.android.internal.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.ImageView`).click()
+    //             await pega.elementByXpath(`//android.widget.ImageView[@content-desc="Shutter"]`).click()
+    //             await pega.elementByXpath(`//android.widget.ImageButton[@content-desc="Done"]`).click()
+    //         } catch (e) { }
+    //         await I.switchContext(`CHROMIUM`)
+    //     }  
+    // })
     .Then('Add Book', async (_I, _runInfo) => {
     try {
         await test_maker__WEBPACK_IMPORTED_MODULE_1__.I.wait(1000);
